@@ -1,0 +1,14 @@
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\BusinessObjects\bin\Debug\net8.0\BusinessObjects.deps.json
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\BusinessObjects\bin\Debug\net8.0\BusinessObjects.dll
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\BusinessObjects\bin\Debug\net8.0\BusinessObjects.pdb
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfoInputs.cache
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.AssemblyInfo.cs
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.CoreCompileInputs.cache
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.dll
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\BusinessObjects\obj\Debug\net8.0\refint\BusinessObjects.dll
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.pdb
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\BusinessObjects\obj\Debug\net8.0\ref\BusinessObjects.dll
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\BusinessObjects\bin\Debug\net8.0\BusinessObjects.runtimeconfig.json
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.csproj.AssemblyReference.cache
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\BusinessObjects\obj\Debug\net8.0\BusinessObjects.genruntimeconfig.cache

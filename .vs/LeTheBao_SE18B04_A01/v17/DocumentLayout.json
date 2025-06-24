@@ -1,0 +1,290 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA534E8-BC5B-46C8-993B-A1DEFDF8F333}|DataAccessObjects\\DataAccessObjects.csproj|e:\\semester 7\\prn222\\code\\week 5\\lethebao_se18b04_a01\\dataaccessobjects\\newsarticledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA534E8-BC5B-46C8-993B-A1DEFDF8F333}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\newsarticledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174BE452-2AD4-48B7-9005-6D61F10FA3B5}|LeTheBaoMVC\\LeTheBaoMVC.csproj|e:\\semester 7\\prn222\\code\\week 5\\lethebao_se18b04_a01\\lethebaomvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{174BE452-2AD4-48B7-9005-6D61F10FA3B5}|LeTheBaoMVC\\LeTheBaoMVC.csproj|solutionrelative:lethebaomvc\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81D6AB36-3EDD-4CA7-B766-ABA07FCA2A31}|BusinessObjects\\BusinessObjects.csproj|e:\\semester 7\\prn222\\code\\week 5\\lethebao_se18b04_a01\\businessobjects\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81D6AB36-3EDD-4CA7-B766-ABA07FCA2A31}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\systemaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174BE452-2AD4-48B7-9005-6D61F10FA3B5}|LeTheBaoMVC\\LeTheBaoMVC.csproj|e:\\semester 7\\prn222\\code\\week 5\\lethebao_se18b04_a01\\lethebaomvc\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174BE452-2AD4-48B7-9005-6D61F10FA3B5}|LeTheBaoMVC\\LeTheBaoMVC.csproj|solutionrelative:lethebaomvc\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174BE452-2AD4-48B7-9005-6D61F10FA3B5}|LeTheBaoMVC\\LeTheBaoMVC.csproj|e:\\semester 7\\prn222\\code\\week 5\\lethebao_se18b04_a01\\lethebaomvc\\views\\shared\\partials\\_reportpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{174BE452-2AD4-48B7-9005-6D61F10FA3B5}|LeTheBaoMVC\\LeTheBaoMVC.csproj|solutionrelative:lethebaomvc\\views\\shared\\partials\\_reportpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174BE452-2AD4-48B7-9005-6D61F10FA3B5}|LeTheBaoMVC\\LeTheBaoMVC.csproj|e:\\semester 7\\prn222\\code\\week 5\\lethebao_se18b04_a01\\lethebaomvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{174BE452-2AD4-48B7-9005-6D61F10FA3B5}|LeTheBaoMVC\\LeTheBaoMVC.csproj|solutionrelative:lethebaomvc\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC478BD-F590-4ABF-BFBE-280D7A8AE876}|Services\\Services.csproj|e:\\semester 7\\prn222\\code\\week 5\\lethebao_se18b04_a01\\services\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC478BD-F590-4ABF-BFBE-280D7A8AE876}|Services\\Services.csproj|solutionrelative:services\\newsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC478BD-F590-4ABF-BFBE-280D7A8AE876}|Services\\Services.csproj|e:\\semester 7\\prn222\\code\\week 5\\lethebao_se18b04_a01\\services\\inewsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC478BD-F590-4ABF-BFBE-280D7A8AE876}|Services\\Services.csproj|solutionrelative:services\\inewsarticleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC478BD-F590-4ABF-BFBE-280D7A8AE876}|Services\\Services.csproj|e:\\semester 7\\prn222\\code\\week 5\\lethebao_se18b04_a01\\services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC478BD-F590-4ABF-BFBE-280D7A8AE876}|Services\\Services.csproj|solutionrelative:services\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC478BD-F590-4ABF-BFBE-280D7A8AE876}|Services\\Services.csproj|e:\\semester 7\\prn222\\code\\week 5\\lethebao_se18b04_a01\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EC478BD-F590-4ABF-BFBE-280D7A8AE876}|Services\\Services.csproj|solutionrelative:services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAA534E8-BC5B-46C8-993B-A1DEFDF8F333}|DataAccessObjects\\DataAccessObjects.csproj|e:\\semester 7\\prn222\\code\\week 5\\lethebao_se18b04_a01\\dataaccessobjects\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAA534E8-BC5B-46C8-993B-A1DEFDF8F333}|DataAccessObjects\\DataAccessObjects.csproj|solutionrelative:dataaccessobjects\\accountdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174BE452-2AD4-48B7-9005-6D61F10FA3B5}|LeTheBaoMVC\\LeTheBaoMVC.csproj|e:\\semester 7\\prn222\\code\\week 5\\lethebao_se18b04_a01\\lethebaomvc\\views\\shared\\partials\\_userpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{174BE452-2AD4-48B7-9005-6D61F10FA3B5}|LeTheBaoMVC\\LeTheBaoMVC.csproj|solutionrelative:lethebaomvc\\views\\shared\\partials\\_userpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174BE452-2AD4-48B7-9005-6D61F10FA3B5}|LeTheBaoMVC\\LeTheBaoMVC.csproj|e:\\semester 7\\prn222\\code\\week 5\\lethebao_se18b04_a01\\lethebaomvc\\views\\shared\\partials\\_categorypartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{174BE452-2AD4-48B7-9005-6D61F10FA3B5}|LeTheBaoMVC\\LeTheBaoMVC.csproj|solutionrelative:lethebaomvc\\views\\shared\\partials\\_categorypartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{174BE452-2AD4-48B7-9005-6D61F10FA3B5}|LeTheBaoMVC\\LeTheBaoMVC.csproj|e:\\semester 7\\prn222\\code\\week 5\\lethebao_se18b04_a01\\lethebaomvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{174BE452-2AD4-48B7-9005-6D61F10FA3B5}|LeTheBaoMVC\\LeTheBaoMVC.csproj|solutionrelative:lethebaomvc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{28836128-fc2c-11d2-a433-00c04f72d18a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewsArticleService.cs",
+              "DocumentMoniker": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\Services\\NewsArticleService.cs",
+              "RelativeDocumentMoniker": "Services\\NewsArticleService.cs",
+              "ToolTip": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\Services\\NewsArticleService.cs",
+              "RelativeToolTip": "Services\\NewsArticleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAACOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T03:29:10.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "INewsArticleService.cs",
+              "DocumentMoniker": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\Services\\INewsArticleService.cs",
+              "RelativeDocumentMoniker": "Services\\INewsArticleService.cs",
+              "ToolTip": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\Services\\INewsArticleService.cs",
+              "RelativeToolTip": "Services\\INewsArticleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T03:29:04.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewsArticleDAO.cs",
+              "DocumentMoniker": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\DataAccessObjects\\NewsArticleDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessObjects\\NewsArticleDAO.cs",
+              "ToolTip": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\DataAccessObjects\\NewsArticleDAO.cs",
+              "RelativeToolTip": "DataAccessObjects\\NewsArticleDAO.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAqwJwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T03:13:57.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\LeTheBaoMVC\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "LeTheBaoMVC\\Controllers\\StaffController.cs",
+              "ToolTip": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\LeTheBaoMVC\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "LeTheBaoMVC\\Controllers\\StaffController.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T03:10:39.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ReportPartial.cshtml",
+              "DocumentMoniker": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\LeTheBaoMVC\\Views\\Shared\\Partials\\_ReportPartial.cshtml",
+              "RelativeDocumentMoniker": "LeTheBaoMVC\\Views\\Shared\\Partials\\_ReportPartial.cshtml",
+              "ToolTip": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\LeTheBaoMVC\\Views\\Shared\\Partials\\_ReportPartial.cshtml",
+              "RelativeToolTip": "LeTheBaoMVC\\Views\\Shared\\Partials\\_ReportPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T03:00:57.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\LeTheBaoMVC\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "LeTheBaoMVC\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\LeTheBaoMVC\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "LeTheBaoMVC\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAHMDAAAAAAAAAAAAAJwDAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-24T02:58:47.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SystemAccount.cs",
+              "DocumentMoniker": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\BusinessObjects\\SystemAccount.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\SystemAccount.cs",
+              "ToolTip": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\BusinessObjects\\SystemAccount.cs",
+              "RelativeToolTip": "BusinessObjects\\SystemAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T02:38:15.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\LeTheBaoMVC\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "LeTheBaoMVC\\Controllers\\AdminController.cs",
+              "ToolTip": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\LeTheBaoMVC\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "LeTheBaoMVC\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowEUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T02:34:25.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\LeTheBaoMVC\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "LeTheBaoMVC\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\LeTheBaoMVC\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "LeTheBaoMVC\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAAHcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T02:33:26.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_UserPartial.cshtml",
+              "DocumentMoniker": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\LeTheBaoMVC\\Views\\Shared\\Partials\\_UserPartial.cshtml",
+              "RelativeDocumentMoniker": "LeTheBaoMVC\\Views\\Shared\\Partials\\_UserPartial.cshtml",
+              "ToolTip": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\LeTheBaoMVC\\Views\\Shared\\Partials\\_UserPartial.cshtml",
+              "RelativeToolTip": "LeTheBaoMVC\\Views\\Shared\\Partials\\_UserPartial.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABsAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T02:33:28.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "Services\\AccountService.cs",
+              "ToolTip": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\Services\\AccountService.cs",
+              "RelativeToolTip": "Services\\AccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T02:37:03.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\Services\\IAccountService.cs",
+              "RelativeDocumentMoniker": "Services\\IAccountService.cs",
+              "ToolTip": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\Services\\IAccountService.cs",
+              "RelativeToolTip": "Services\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T02:36:57.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountDAO.cs",
+              "DocumentMoniker": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\DataAccessObjects\\AccountDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessObjects\\AccountDAO.cs",
+              "ToolTip": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\DataAccessObjects\\AccountDAO.cs",
+              "RelativeToolTip": "DataAccessObjects\\AccountDAO.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwEwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T02:34:16.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_CategoryPartial.cshtml",
+              "DocumentMoniker": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\LeTheBaoMVC\\Views\\Shared\\Partials\\_CategoryPartial.cshtml",
+              "RelativeDocumentMoniker": "LeTheBaoMVC\\Views\\Shared\\Partials\\_CategoryPartial.cshtml",
+              "ToolTip": "E:\\Semester 7\\PRN222\\Code\\Week 5\\LeTheBao_SE18B04_A01\\LeTheBaoMVC\\Views\\Shared\\Partials\\_CategoryPartial.cshtml",
+              "RelativeToolTip": "LeTheBaoMVC\\Views\\Shared\\Partials\\_CategoryPartial.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T02:33:29.262Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

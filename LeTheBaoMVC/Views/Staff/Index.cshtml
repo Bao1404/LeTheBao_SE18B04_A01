@@ -1,0 +1,326 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var user = ViewBag.User;
+}
+
+<div class="page-header">
+    <div class="container">
+        <h1 class="page-title">Management Dashboard</h1>
+        <p class="page-subtitle">Manage categories, articles, profile, and view your content history</p>
+    </div>
+</div>
+
+<div class="container">
+
+    <!-- Management Tabs -->
+    <div class="management-tabs">
+        <ul class="nav nav-tabs" id="managementTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="categories-tab" data-bs-toggle="tab" data-bs-target="#categories" type="button" role="tab">
+                    <i class="bi bi-folder me-2"></i>Categories
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="articles-tab" data-bs-toggle="tab" data-bs-target="#articles" type="button" role="tab">
+                    <i class="bi bi-file-text me-2"></i>Articles
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab">
+                    <i class="bi bi-person me-2"></i>Profile
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="history-tab" data-bs-toggle="tab" data-bs-target="#history" type="button" role="tab">
+                    <i class="bi bi-clock-history me-2"></i>History
+                </button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="managementTabContent">
+            <!-- Categories Tab -->
+            <div class="tab-pane fade show active" id="categories" role="tabpanel">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h4>Category Management</h4>
+                    <button class="btn btn-primary" style="background-color: #ff6b35 !important; border: 1px solid #ff6b35 !important" data-bs-toggle="modal" data-bs-target="#categoryModal">
+                        <i class="bi bi-plus-circle me-2"></i>Add Category
+                    </button>
+                </div>
+
+                <form id="categorySearchForm">
+                    <div class="row mb-4">
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" id="statusSearch" name="category" placeholder="Search">
+                        </div>
+                    </div>
+                </form>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                 <partial name="Partials/_CategoryPartial" />
+                </table>
+            </div>
+
+            <!-- Articles Tab -->
+            <div class="tab-pane fade" id="articles" role="tabpanel">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h4>Article Management</h4>
+                    <button class="btn btn-primary" style="background-color: #ff6b35 !important; border: 1px solid #ff6b35 !important" data-bs-toggle="modal" data-bs-target="#articleModal" onclick="openArticleModal()">
+                        <i class="bi bi-plus-circle me-2"></i>Create Article
+                    </button>
+                </div>
+
+                <!-- Filter Options -->
+                <form id="articleSearchForm">
+                    <div class="row mb-4">
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" id="statusSearch" name="article" placeholder="Search">
+                        </div>
+                    </div>
+                </form>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Category</th>
+                            <th>Tags</th>
+                            <th>Status</th>
+                            <th>Created Date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <partial name="Partials/_ArticlePartial" />
+                </table>
+
+            </div>
+
+            <!-- Profile Tab -->
+            <div class="tab-pane fade" id="profile" role="tabpanel">
+                <div class="row">
+                    <div class="profile-info col-md-4">
+                        <div class="row align-items-center">
+                            <div class="">
+                                <h3 id="profileName">@user.AccountName</h3>
+                                <p class="mb-2 d-flex"><i class="bi bi-envelope me-2"></i><span id="profileEmail">@user.AccountEmail</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card management-card">
+                            <div class="card-header">
+                                <h5 class="card-title">Edit Profile</h5>
+                            </div>
+                            <div class="card-body">
+                                <form id="profileForm" action="/Account/Update" method="POST">
+                                    <input type="hidden" value="@user.AccountId" name="accountId"/>
+                                    <div class="row">
+                                        <div class="">
+                                            <label for="firstName" class="form-label">Name</label>
+                                            <input type="text" class="form-control" name="fullName" value="@user.AccountName">
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control" name="email" value="@user.AccountEmail">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="password" class="form-label">Password</label>
+                                        <input type="password" class="form-control" name="password" value="@user.AccountPassword">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="role" class="form-label">Role</label>
+                                        <input type="text" class="form-control" name="role" value="@(user.AccountRole == 2 ? "Staff" : "")" readonly>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary" style="background-color: #ff6b35; border: 1px solid #ff6b35">Update Profile</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- History Tab -->
+            <div class="tab-pane fade" id="history" role="tabpanel">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h4>My Article History</h4>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Category</th>
+                                <th>Status</th>
+                                <th>Created Date</th>
+                                <th>Last Modified</th>
+                            </tr>
+                        </thead>
+                        <tbody id="historyTableBody">
+                            @foreach (var art in ViewBag.ListByUser)
+                            {
+                                <tr>
+                                    <td><strong>@art.NewsTitle</strong></td>
+                                    <td>@art.Category.CategoryName</td>
+                                    <td><span class="status-badge status-published">PUBLISHED</span></td>
+                                    <td>@art.CreatedDate.ToString("MM dd, yyyy")</td>
+                                    @if (art.ModifiedDate != null)
+                                    {
+                                        <td>@art.ModifiedDate.ToString("MM dd, yyyy")</td>
+                                    }
+                                    else
+                                    {
+                                        <td>N/A</td>
+                                    }
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Category Modal -->
+<div class="modal fade" id="categoryModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: #ff6b35">
+                <h5 class="modal-title" id="categoryModalTitle">Add Category</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form id="categoryForm" action="/Category" method="POST">
+                    @* <input type="hidden" id="categoryId"> *@
+                    <div class="mb-3">
+                        <label for="categoryName" class="form-label">Category Name</label>
+                        <input type="text" class="form-control" name="categoryName" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="categoryDescription" class="form-label">Description</label>
+                        <textarea class="form-control" name="categoryDescription" rows="3"></textarea>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary" style="background: #ff6b35; border: 1px solid #ff6b35" >Save Category</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Article Modal -->
+<div class="modal fade" id="articleModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: #ff6b35">
+                <h5 class="modal-title" id="articleModalTitle">Create Article</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <form id="articleForm" action="/Article" method="POST">
+                <div class="modal-body">
+                    @* <input type="hidden" id="articleId"> *@
+                    <div class="row">
+                        <div class="col-md-8 mb-3">
+                            <label for="articleTitle" class="form-label">Title</label>
+                            <input type="text" class="form-control" name="title" required>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <label for="id" class="form-label">Article ID</label>
+                            <input type="text" class="form-control" name="id" required />
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="articleSubtitle" class="form-label">Headline</label>
+                        <input type="text" class="form-control" name="headline">
+                    </div>
+                    <div class="mb-3">
+                        <label for="articleContent" class="form-label">Content</label>
+                        <textarea class="form-control" name="content" rows="8" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="articleTags" class="form-label">Tags</label>
+                        <div class="tag-input" id="tagInput">
+                            @foreach (var tag in ViewBag.ListTag)
+                            {
+                                <input type="checkbox" id="@tag.TagName" name="tag" value="@tag.TagId">
+                                <label for="@tag.TagName">@tag.TagName</label>
+                                <br>
+                            }
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <label for="articleCategory" class="form-label">Category</label>
+                            <select class="form-select" name="categoryId" required>
+                                <option value="">Select Category</option>
+                                @foreach (var category in ViewBag.ListCategory)
+                                {
+                                    <option value="@category.CategoryId">@category.CategoryName</option>
+                                }
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="articleStatus" class="form-label">Status</label>
+                            <select class="form-select" name="status">
+                                <option value="0">Pending</option>
+                                <option value="1">Published</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Article</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#categorySearchForm').submit(function (e) {
+                e.preventDefault();
+                $.ajax({
+                    url: '/Search/Category',
+                    type: 'GET',
+                    data: $(this).serialize(),
+                    success: function (data) {
+                        $('#categoriesTableBody').html(data);
+                    },
+                    error: function () {
+                        alert('Error loading category data.');
+                    }
+                });
+            });
+
+            $('#articleSearchForm').submit(function (e) {
+                e.preventDefault();
+                $.ajax({
+                    url: '/Search/Article',
+                    type: 'GET',
+                    data: $(this).serialize(),
+                    success: function (data) {
+                        $('#articlesTableBody').html(data);
+                    },
+                    error: function () {
+                        alert('Error loading category data.');
+                    }
+                });
+            });
+        });
+    </script>
+</div>
+
+

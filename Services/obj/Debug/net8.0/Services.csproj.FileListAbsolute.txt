@@ -1,0 +1,17 @@
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\bin\Debug\net8.0\Services.deps.json
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\bin\Debug\net8.0\Services.dll
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\bin\Debug\net8.0\Services.pdb
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\bin\Debug\net8.0\BusinessObjects.dll
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\bin\Debug\net8.0\DataAccessObjects.dll
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\bin\Debug\net8.0\BusinessObjects.pdb
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\bin\Debug\net8.0\DataAccessObjects.pdb
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\obj\Debug\net8.0\Services.dll
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\obj\Debug\net8.0\refint\Services.dll
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\obj\Debug\net8.0\Services.pdb
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\Services\obj\Debug\net8.0\ref\Services.dll

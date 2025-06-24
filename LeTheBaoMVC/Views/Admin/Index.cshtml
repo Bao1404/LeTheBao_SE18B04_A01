@@ -1,0 +1,139 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+}
+
+<div class="page-header">
+    <div class="container">
+        <h1 class="page-title">Management Dashboard</h1>
+        <p class="page-subtitle">Manage categories, articles, profile, and view your content history</p>
+    </div>
+</div>
+
+<div class="container">
+
+    <!-- Management Tabs -->
+    <div class="management-tabs">
+        <ul class="nav nav-tabs" id="managementTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="categories-tab" data-bs-toggle="tab" data-bs-target="#categories" type="button" role="tab">
+                    <i class="bi bi-folder me-2"></i>Account
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="articles-tab" data-bs-toggle="tab" data-bs-target="#articles" type="button" role="tab">
+                    <i class="bi bi-graph-up me-2"></i>Statistics & Reports
+                </button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="managementTabContent">
+            <!-- Account Tab -->
+            <div class="tab-pane fade show active" id="categories" role="tabpanel">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <h4>User Management</h4>
+                </div>
+
+                <form id="userSearchForm">
+                    <div class="row mb-4">
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" id="statusSearch" name="input" placeholder="Search">
+                        </div>
+                    </div>
+                </form>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <partial name="Partials/_UserPartial" />
+                </table>
+            </div>
+
+            <!-- Articles Tab -->
+            <div class="tab-pane fade" id="articles" role="tabpanel">
+                <!-- Filter Options -->
+                <div class="report-filters">
+                    <form id="reportFilter">
+                        <div class="row align-items-end">
+                            <div class="col-md-3">
+                                <label for="startDate" class="form-label">Start Date</label>
+                                <div class="date-input">
+                                    <input type="date" class="form-control" id="startDate" name="start" value="2024-01-01">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-calendar3"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="endDate" class="form-label">End Date</label>
+                                <div class="date-input">
+                                    <input type="date" class="form-control" id="endDate" name="end" value="2024-01-31">
+                                    <span class="input-group-text">
+                                        <i class="bi bi-calendar3"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <button type="submit" class="btn btn-primary w-100" style="background-color: #ff6b35; border: 1px solid #ff6b35;">
+                                    <i class="bi bi-graph-up me-2"></i>Generate Report
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Title</th>
+                            <th>Category</th>
+                            <th>Tags</th>
+                            <th>Status</th>
+                            <th>Created Date</th>
+                        </tr>
+                    </thead>
+
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#userSearchForm').submit(function (e) {
+                e.preventDefault();
+                $.ajax({
+                    url: '/Search/User',
+                    type: 'GET',
+                    data: $(this).serialize(),
+                    success: function (data) {
+                        $('#categoriesTableBody').html(data);
+                    }
+                });
+            });
+
+    $('#reportFilter').submit(function (e) {
+                e.preventDefault();
+                $.ajax({
+                url: '/Article/Report',
+                    type: 'GET',
+                    data: $(this).serialize(),
+                    success: function (data) {
+                    $('#reportTableBody').html(data);
+                    }
+                });
+            });
+        });
+    </script>
+</div>
+
+

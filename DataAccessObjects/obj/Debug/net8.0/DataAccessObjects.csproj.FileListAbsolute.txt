@@ -1,0 +1,15 @@
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.deps.json
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.dll
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\bin\Debug\net8.0\DataAccessObjects.pdb
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\bin\Debug\net8.0\BusinessObjects.dll
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\bin\Debug\net8.0\BusinessObjects.pdb
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.AssemblyReference.cache
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfoInputs.cache
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.AssemblyInfo.cs
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.csproj.CoreCompileInputs.cache
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\obj\Debug\net8.0\DataAcce.79975846.Up2Date
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.dll
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\obj\Debug\net8.0\refint\DataAccessObjects.dll
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\obj\Debug\net8.0\DataAccessObjects.pdb
+E:\Semester 7\PRN222\Code\Week 5\LeTheBao_SE18B04_A01\DataAccessObjects\obj\Debug\net8.0\ref\DataAccessObjects.dll
