@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BusinessObjects;
+using Microsoft.AspNetCore.Mvc;
 using Services;
+using System.Collections.Generic;
 
 namespace LeTheBaoMVC.Controllers
 {
@@ -62,13 +64,11 @@ namespace LeTheBaoMVC.Controllers
         {
             var startDate = Request.Query["start"];
             var endDate = Request.Query["end"];
+            List<NewsArticle> list = new List<NewsArticle>();
             if (!string.IsNullOrEmpty(startDate) && !string.IsNullOrEmpty(endDate))
             {
-                var list = _newsArticleService.GetReportedArticles(DateOnly.Parse(startDate), DateOnly.Parse(endDate));
-                if(list != null && list.Count > 0)
-                {
-                    ViewBag.ListReport = list;
-                }
+                list = _newsArticleService.GetReportedArticles(DateOnly.Parse(startDate), DateOnly.Parse(endDate));
+                ViewBag.List = list;
             }
             return PartialView("Partials/_ReportPartial");
         }

@@ -100,7 +100,7 @@
                             <th>Created Date</th>
                         </tr>
                     </thead>
-
+                    <partial name="Partials/_ReportPartial" />
                 </table>
             </div>
         </div>
@@ -116,22 +116,22 @@
                     type: 'GET',
                     data: $(this).serialize(),
                     success: function (data) {
-                        $('#categoriesTableBody').html(data);
+                        $('#userTableBody').html(data);
                     }
                 });
             });
 
     $('#reportFilter').submit(function (e) {
-                e.preventDefault();
-                $.ajax({
+            e.preventDefault();
+            $.ajax({
                 url: '/Article/Report',
-                    type: 'GET',
-                    data: $(this).serialize(),
-                    success: function (data) {
+                type: 'GET',
+                data: $(this).serialize(),
+                success: function (data) {
                     $('#reportTableBody').html(data);
-                    }
-                });
+                }
             });
+        });
         });
     </script>
 </div>

@@ -148,7 +148,7 @@ namespace DataAccessObjects
             {
                 DateTime startDateTime = start.ToDateTime(TimeOnly.MinValue); 
                 DateTime endDateTime = end.ToDateTime(TimeOnly.MaxValue);
-                list = _context.NewsArticles.Where(n => n.CreatedDate >= startDateTime && n.CreatedDate <= endDateTime).ToList();
+                list = _context.NewsArticles.Include(n => n.Category).Include(n => n.Tags).Where(n => n.CreatedDate >= startDateTime && n.CreatedDate <= endDateTime).ToList();
             }
             catch (Exception ex)
             {

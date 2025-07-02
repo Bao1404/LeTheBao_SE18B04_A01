@@ -2,12 +2,14 @@
 @*
     For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 *@
+@{
+
+}
 <div class="table-responsive">
     <tbody id="reportTableBody">
         <!-- Articles will be loaded here -->
-        @if (ViewBag.ListReport != null)
-        {
-            @foreach (var article in ViewBag.ListReport)
+        @if (ViewBag.List != null)
+            @foreach (var article in ViewBag.List)
             {
                 <tr>
                     <td>@article.NewsArticleId</td>
@@ -32,16 +34,7 @@
 
                     </td>
                     <td>@article.CreatedDate.ToString("MM dd, yyyy")</td>
-                    <td>
-                        <button class="btn btn-sm btn-outline-primary me-1" data-bs-toggle="modal" data-bs-target="#updateArticleModal-@article.NewsArticleId">
-                            <i class="bi bi-pencil"></i>
-                        </button>
-                        <button class="btn btn-sm btn-outline-danger" data-bs-toggle="modal" data-bs-target="#deleteArticleModal-@article.NewsArticleId">
-                            <i class="bi bi-trash"></i>
-                        </button>
-                    </td>
                 </tr>
-            }
-        }
+            }  
     </tbody>
 </div>
